@@ -1,4 +1,5 @@
-<%@include file="include/topbar.jsp"%>
+<%@include file="include/topbarHome.jsp"%>
+<%@include file="include/bottombar.jsp"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,10 +10,10 @@
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script type="text/javascript" src="javascript/map/initialize.js"></script>
     <script type="text/javascript" src="javascript/map/markers.js"></script>
+
   </head>
   <body>
     <div id="map-canvas"></div>
-    
     <div id="eventDetails" class="modal hide fade in" style="display: none;">  
 	<div class="modal-body">
 		<legend>Event Details</legend>

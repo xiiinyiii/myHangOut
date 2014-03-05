@@ -9,7 +9,7 @@
 	</servlet-mapping>
 	
 	<welcome-file-list>
-		<welcome-file>home.html</welcome-file>
+		<welcome-file>home.jsp</welcome-file>
 	</welcome-file-list>
  <servlet>
   <servlet-name>SystemServiceServlet</servlet-name>

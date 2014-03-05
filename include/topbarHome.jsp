@@ -26,7 +26,7 @@
   </div>
   <div class="collapse navbar-collapse">
     <ul class="nav navbar-nav navbar-right">
-      <!--<li><a href="home.jsp"><i class="glyphicon glyphicon-refresh icon-white"></i> Refresh</a></li>
+      <li><a href="home.jsp"><i class="glyphicon glyphicon-refresh icon-white"></i> Refresh</a></li>
       <li class="dropdown">
         <a href="#" class="glyphicon glyphicon-filter icon-white" data-toggle="dropdown"> Filter <b class="caret"></b></a>
         <ul class="dropdown-menu pull-right">
@@ -35,7 +35,7 @@
           <li><a href="#">Something else here</a></li>
           <li><a href="#">Separated link</a></li>
         </ul>
-      </li>-->
+      </li>
       <li><a href="setting.jsp"><i class="glyphicon glyphicon-cog icon-white"></i> Setting</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
