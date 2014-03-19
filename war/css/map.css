@@ -1,0 +1,34 @@
+html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        width: 1280px;
+        overflow-y:hidden;
+      }
+      #panel {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -180px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+      }
+	#photo-panel {
+	  background: #fff;
+	  padding: 5px;
+	  overflow-y: auto;
+	  overflow-x: hidden;
+	  width: 300px;
+	  max-height: 300px;
+	  font-size: 14px;
+	  font-family: Arial;
+	  border: 1px solid #ccc;
+	  box-shadow: -2px 2px 2px rgba(33, 33, 33, 0.4);
+	  display: none;
+	}
+	.controls.readonly{
+  		padding-top: 6px;
+	}
