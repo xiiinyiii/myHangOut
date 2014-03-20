@@ -88,10 +88,10 @@ window.onload=function(){
 			sessionStorage.setItem("32", "Dave,boy/face9.jpg,Status,1.369017,103.84812199999999,Chilling with a cup of coffee. Love the coffee here,2030,07122013");
 			sessionStorage.setItem("33", "Rebecca,girl/face15.jpg,Photo,1.256752,103.82033100000001,Spent my Sunday at SEA Aquarium.,1940,07122013,sea-aquarium - edit.jpg");
 			sessionStorage.setItem("34", "Rebecca,girl/face15.jpg,Status,1.3073704,103.88422289999994,Awesome Black Pepper Crab here!,2100,06122013");
-			sessionStorage.setItem("35", "Rebecca,girl/face15.jpg,Status,1.3555099,103.94523589999994,Love the pudding at paris baguette!,2100,05122013");
-			sessionStorage.setItem("36", "Rebecca,girl/face15.jpg,Status,1.299461,103.84465939999995,Cheap and Nice food buffet here. Worth trying!,2100,04122013");
-			sessionStorage.setItem("37", "Rebecca,girl/face15.jpg,Status,1.36194,103.88492700000006,Birthday celebration with Jane at Ice Edge Café!,1410,04122013");
-			sessionStorage.setItem("38", "Rebecca,girl/face15.jpg,Status,1.3333130361811525,103.74017894268036,Birthday celebration with family at JCube!,2030,03122013");
+			sessionStorage.setItem("35", "Rebecca,girl/face15.jpg,Status,1.3555099,103.94523589999994,Love the pudding at paris baguette!,2100,05122014");
+			sessionStorage.setItem("36", "Rebecca,girl/face15.jpg,Status,1.299461,103.84465939999995,Cheap and Nice food buffet here. Worth trying!,2100,04122014");
+			sessionStorage.setItem("37", "Rebecca,girl/face15.jpg,Status,1.36194,103.88492700000006,Birthday celebration with Jane at Ice Edge Café!,1410,04122014");
+			sessionStorage.setItem("38", "Rebecca,girl/face15.jpg,Status,1.3333130361811525,103.74017894268036,Birthday celebration with family at JCube!,2030,03122014");
 
 		}
 	}
