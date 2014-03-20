@@ -12,46 +12,46 @@ window.onload=function(){
 		if(sessionStateSplit[0]=="twitter"){
 			sessionStorage.setItem("1", "Dave,boy/face9.jpg,Status,1.341621,103.776156,Eating kaya toast and soft-boiled eggs for my breakfast! Love this combi!,0945,25032014");
 			sessionStorage.setItem("2", "Alvin,boy/face8.jpg,Photo,1.2862989,103.85921689999998,Great musical concert! Love it. You guys must catch this wonderful musical!,2055,24032014,musical edit.jpg");
-			sessionStorage.setItem("3", "Joseph,boy/face1.jpg,Photo,1.435855,103.786222,This lunch costs me $9.90 nett only! Gotta bring my family here next time,1320,23032014,990lunch - Copy.jpg");
+			sessionStorage.setItem("3", "Johnny,boy/face2.jpg,Photo,1.435855,103.786222,This lunch costs me $9.90 nett only! Gotta bring my family here next time,1320,23032014,990lunch - Copy.jpg");
 			sessionStorage.setItem("4", "Stanley,boy/face3.jpg,Status,1.254187,103.823279,had a great day at USS! Gotta come here another time!,1823,22032014");
-			sessionStorage.setItem("5", "Johnny,boy/face2.jpg,Photo,1.412975,103.82963300000006,Love coming to Bottle Tree for family outings,1054,21032014,bottle tree - Copy.jpg");
-			sessionStorage.setItem("6", "Murphy,boy/face4.jpg,Photo,1.279608,103.869874,Had a great time spent with my lovely family,1819,20032014,Marina Barrage edited.jpg");
-			sessionStorage.setItem("7", "Joseph,boy/face1.jpg,Photo,1.332875,103.95900389999997,Going to buy my new laptop!,1718,14032014,comexit edited.jpg");
+			sessionStorage.setItem("5", "Johnny,boy/face2.jpg.jpg,Photo,1.412975,103.82963300000006,Love coming to Bottle Tree for family outings,1054,21032014,bottle tree - Copy.jpg");
+			sessionStorage.setItem("6", "Billy,boy/face5.jpg,Photo,1.279608,103.869874,Had a great time spent with my lovely family,1819,20032014,Marina Barrage edited.jpg");
+			sessionStorage.setItem("7", "Johnny,boy/face2.jpg,Photo,1.332875,103.95900389999997,Going to buy my new laptop!,1718,14032014,comexit edited.jpg");
 			sessionStorage.setItem("8", "Billy,boy/face5.jpg,Status,1.334938,103.74687199999994,Celebrating dad's birthday with great food sponsored by mum! Happy birthday dad!,1030,20022014");
-			sessionStorage.setItem("9", "Wilson,boy/face7.jpg,Status,1.3023579,103.87644499999999,Love their in-door ice skating facilities!,1716,18022014");
+			sessionStorage.setItem("9", "Dave,boy/face9.jpg,Status,1.3023579,103.87644499999999,Love their in-door ice skating facilities!,1716,18022014");
 			sessionStorage.setItem("10", "Rebecca,girl/face15.jpg,Photo,1.36194,103.88492700000006,Out with my bestie to Ice Edge Café!,1410,17022014,ice edge - Copy.jpg");
 			sessionStorage.setItem("11", "Rebecca,girl/face15.jpg,Status,1.352299,103.943857,First Time trying Manhattan Fish Market and the food here is awesome. Love it! ,1525,16022014");
-			sessionStorage.setItem("12", "Rebecca,girl/face15.jpg,Status,1.2993889,103.847398,Love their waffles and tea!,1525,17022014");
+			sessionStorage.setItem("12", "Charlotte,girl/face13.jpg,Status,1.2993889,103.847398,Love their waffles and tea!,1525,17022014");
 			sessionStorage.setItem("13", "Rebecca,girl/face15.jpg,Status,1.28526,103.829337,Like Korean Food? Join me at Big Mama Korean Resturant! ,2010,14022014");
-			sessionStorage.setItem("14", "Rebecca,girl/face15.jpg,Status,1.364548,103.86637389999999,Love Chomp Chomp food!,2100,10022014");
+			sessionStorage.setItem("14", "Stella,girl/face17.jpg,Status,1.364548,103.86637389999999,Love Chomp Chomp food!,2100,10022014");
 			sessionStorage.setItem("15", "Rebecca,girl/face15.jpg,Status,1.3006139,103.84510449999993,Long Queue at Plaza Singapura 4 Fingers Crispy Chicken! But it's worth waiting because the food is nice! ,1807,21022013");
 			sessionStorage.setItem("16", "Rebecca,girl/face15.jpg,Status,1.3023411,103.83647050000002,Wild Honey is a really very fantastic place. I went with family. Loved food as well as services.,1900,20022013");
 			sessionStorage.setItem("17", "Rebecca,girl/face15.jpg,Photo,1.2807961,103.84579229999997,Cafehopping Stop 2! - Le Chocolat Café - Awesome Rainbow Cake! ,1817,16022013,cake edited.jpg");
 			sessionStorage.setItem("18", "Rebecca,girl/face15.jpg,Photo,1.326623,103.85283099999992,Finally made my way to Wheeler's Yard on Valnetine's Day! Cafehopping Stop 1 ! ,1630,15022013,coffee edited.jpg");
-			sessionStorage.setItem("19", "Rebecca,girl/face15.jpg,Photo,1.3087174,103.81798249999997,New cafe on valentine! Food for thought,1230,14022013,food for thought - Copy.jpg");
+			sessionStorage.setItem("19", "Renee,girl/face16.jpg,Photo,1.3087174,103.81798249999997,New cafe on valentine! Food for thought,1230,14022013,food for thought - Copy.jpg");
 			sessionStorage.setItem("20", "Rebecca,girl/face15.jpg,Photo,1.2906199,103.8380267,Love their valentine set meal,1530,14022013,kith cafe - Copy.jpg");
 
 		}else if(sessionStateSplit[0]=="instagram"){
 			sessionStorage.setItem("1", "Renee,girl/face16.jpg,Photo,1.331903,103.938952,Dinner at Bedok 85! Yummy Bar Chor Mee!,2041,15032014,bar chor mee edited.jpg");
 			sessionStorage.setItem("2", "Johnny,boy/face2.jpg,Photo,1.254347,103.823242,having so much fun at USS,2004,15032014,photo-edit.jpg");
 			sessionStorage.setItem("3", "Rebecca,girl/face15.jpg,Photo,1.3007239,103.91188119999993,Watching sunset with my dearest Mr. Donavan! ,1825,14032014,east coast - Copy.jpg");
-			sessionStorage.setItem("4", "Delia,girl/face14.jpg,Photo,1.4237758,103.84074069999997,Long queue but food here is very affordable. Mostly are priced between S$6-$12,1546,11032014,pin si - edit.jpg");
+			sessionStorage.setItem("4", "Rebecca,girl/face15.jpg,Photo,1.4237758,103.84074069999997,Long queue but food here is very affordable. Mostly are priced between S$6-$12,1546,11032014,pin si - edit.jpg");
 			sessionStorage.setItem("5", "Renee,girl/face16.jpg,Photo,1.361641,103.885948,Out with my bestie to Lola's Café!,1410,10032014,lola cafe - edit.jpg");
 			sessionStorage.setItem("6", "Stanley,boy/face3.jpg,Photo,1.325641,103.72497999999996,Look at my scores!,1932,09032014,bowling edit.jpg");
-			sessionStorage.setItem("7", "Murphy,boy/face4.jpg,Photo,1.415119,103.89897199999996,Love this buffet spread,1706,07032014,buffet edited.jpg");
-			sessionStorage.setItem("8", "Joseph,boy/face1.jpg,Photo,1.3297412984957184,103.75720024108887,Look at my delicious lunch!,1200,27022014,marche edited.jpg");
-			sessionStorage.setItem("9", "Wilson,boy/face7.jpg,Photo,1.24517,103.827905,Celebrating our 4th anniversary. Recommend this restaurant Moonstone to you guys! They have the best service and food here!,2230,25022014,Capture1 - Copy.JPG");
+			sessionStorage.setItem("7", "Billy,boy/face5.jpg,Photo,1.415119,103.89897199999996,Love this buffet spread,1706,07032014,buffet edited.jpg");
+			sessionStorage.setItem("8", "Johnny,boy/face2.jpg,Photo,1.3297412984957184,103.75720024108887,Look at my delicious lunch!,1200,27022014,marche edited.jpg");
+			sessionStorage.setItem("9", "Billy,boy/face5.jpg,Photo,1.24517,103.827905,Celebrating our 4th anniversary. Recommend this restaurant Moonstone to you guys! They have the best service and food here!,2230,25022014,Capture1 - Copy.JPG");
 			sessionStorage.setItem("10", "Rebecca,girl/face15.jpg,Photo,1.3784307,103.95057139999994,Night cycling at Pasir Ris Park,2100,14022014,pasir risk park - edit.jpg");
-			sessionStorage.setItem("11", "Amanda,girl/face11.jpg,Photo,1.281098,103.84212500000001,Chilling with Rebecca at 49 Seats! ,1713,13022014,49 seats-edit.jpg");
-			sessionStorage.setItem("12", "Stephen,boy/face10.jpg,Photo,1.3369629,103.77921400000002,Lunch after school at McDonald,1401,10022013,kap mcdonald - edit.jpg");
-			sessionStorage.setItem("13", "Stephen,boy/face10.jpg,Photo,1.332875,103.95900389999997,Bought my new running shoes at Sports Fair,1830,07022013,shoes - edit.jpg");
+			sessionStorage.setItem("11", "Charlotte,girl/face13.jpg,Photo,1.281098,103.84212500000001,Chilling with Rebecca at 49 Seats! ,1713,13022014,49 seats-edit.jpg");
+			sessionStorage.setItem("12", "Johnny,boy/face2.jpg,Photo,1.3369629,103.77921400000002,Lunch after school at McDonald,1401,10022013,kap mcdonald - edit.jpg");
+			sessionStorage.setItem("13", "Johnny,boy/face2.jpg,Photo,1.332875,103.95900389999997,Bought my new running shoes at Sports Fair,1830,07022013,shoes - edit.jpg");
 			sessionStorage.setItem("14", "Rebecca,girl/face15.jpg,Photo,1.311699,103.79552699999999,Renee Birthday Celebration at Hatched,1130,05022013,Hatched Collage - Copy.jpg");
-			sessionStorage.setItem("15", "Amanda,girl/face11.jpg,Photo,1.306842,103.78844000000004,Took a day off to shop for our travel stuffs! ,1015,01022013,Inside-The-star - Copy.jpg");
+			sessionStorage.setItem("15", "Stella,girl/face17.jpg,Photo,1.306842,103.78844000000004,Took a day off to shop for our travel stuffs! ,1015,01022013,Inside-The-star - Copy.jpg");
 			sessionStorage.setItem("16", "Dave,boy/face9.jpg,Photo,1.29943,103.847422,Chilling at Professor Brawn Cafe,1655,10122013,professor - Copy.jpg");
 			sessionStorage.setItem("17", "Alvin,boy/face8.jpg,Photo,1.374183,103.932748,Shopping at Ikea for my new room!,1450,10122013,ikea - Copy.jpg");
-			sessionStorage.setItem("18", "Stephen,boy/face10.jpg,Photo,1.3742993,103.75069529999996,Best Crab in Town at Master Crab,2030,07122013,master crab - Copy.jpg");
-			sessionStorage.setItem("19", "Bernice,girl/face12.jpg,Photo,1.410939,103.84369100000004,Playing Golf with my family. Love this kind of family outing!,1230,06122013,golf course - Copy.jpg");
-			sessionStorage.setItem("20", "Stephen,boy/face10.jpg,Photo,1.4035561399589391,103.78729462623596,First Time at Night Safari! Enjoy it so much!,2130,05122013,night safari - Copy.jpg");
+			sessionStorage.setItem("18", "Billy,boy/face5.jpg,Photo,1.3742993,103.75069529999996,Best Crab in Town at Master Crab,2030,07122013,master crab - Copy.jpg");
+			sessionStorage.setItem("19", "Renee,girl/face16.jpg,Photo,1.410939,103.84369100000004,Playing Golf with my family. Love this kind of family outing!,1230,06122013,golf course - Copy.jpg");
+			sessionStorage.setItem("20", "Charlotte,girl/face13.jpg,Photo,1.4035561399589391,103.78729462623596,First Time at Night Safari! Enjoy it so much!,2130,05122013,night safari - Copy.jpg");
 
 		}else{
 			sessionStorage.setItem("1", "Stanley,boy/face3.jpg.jpg,Photo,1.3050905124228618,103.90330670921003,Best Laksa in Singapore!,2054,16032014,laksa edit.jpg");

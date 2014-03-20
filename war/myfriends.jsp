@@ -40,24 +40,24 @@
 	  name1="";
   }
   
-  
-  friendList.add("Joseph,boy/face1.jpg");
+
+  //friendList.add("Joseph,boy/face1.jpg");
   friendList.add("Johnny,boy/face2.jpg");
   //friendList.add("Stanley,boy/face3.jpg");
-  friendList.add("Murphy,boy/face4.jpg");
+  //friendList.add("Murphy,boy/face4.jpg");
   friendList.add("Billy,boy/face5.jpg");
-  friendList.add("Wilson,boy/face7.jpg");
+  //friendList.add("Wilson,boy/face7.jpg");
   friendList.add("Alvin,boy/face8.jpg");
   friendList.add("Dave,boy/face9.jpg");
-  friendList.add("Stephen,boy/face10.jpg");
-  friendList.add("Amanda,girl/face11.jpg");
-  friendList.add("Bernice,girl/face12.jpg");
+  //friendList.add("Stephen,boy/face10.jpg");
+  //friendList.add("Amanda,girl/face11.jpg");
+  //friendList.add("Bernice,girl/face12.jpg");
   friendList.add("Charlotte,girl/face13.jpg");
-  friendList.add("Delia,girl/face14.jpg");
+  //friendList.add("Delia,girl/face14.jpg");
   friendList.add("Rebecca,girl/face15.jpg");
   friendList.add("Renee,girl/face16.jpg");
   friendList.add("Stella,girl/face17.jpg");
-  friendList.add("Victoria,girl/face18.jpg");
+ // friendList.add("Victoria,girl/face18.jpg");
   
   if(name1.length()>0){
 	  for(int i = 0; i<friendList.size();i++){ 
