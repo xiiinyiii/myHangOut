@@ -100,7 +100,6 @@
             <tr>
               <td><img src=<%=avatar %> onclick="saveName('<%=friendsDetails[0]%>')" alt="friends name" width="50" height="50"></td>
               <td><%=friendsDetails[0] %><br/>
-                <a href="#">Unfriend</a>
               </td>
             </tr>
           </table>

@@ -10,6 +10,6 @@
   <br/>
   <br/>
   <br/>
-    <img src="images/help_screenshot.png" width="auto" height="100%">
+    <img src="images/main/help_screenshot.png" width="auto" height="100%">
   </body>
 </html>
