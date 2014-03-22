@@ -124,7 +124,7 @@ function createMarkers() {
 			infoWindowEvent[i] = "<div id='infoWindow'><strong>"+ eventsMoreDetails[0] +"</strong><hr>Created By: "+ dataSplit[0] +"<br><br>"+
 			"<input type='hidden' id='sendLoadEvent' value="+i+">"+  
 			"<div align='right'><font size='1'> More<br>information </font></div>" +
-					"<img src='images/right arrow.png' onclick='loadEvent()' align='right' height='20' width='20'><br><br>"+
+					"<img src='images/right_arrow.png' onclick='loadEvent()' align='right' height='20' width='20'><br><br>"+
 			  "<font size='1'>5 hours ago<br>"+storeAddress[i]+"</font></div>";
 			
 			google.maps.event.addListener(event, 'click', (function(event,i){
