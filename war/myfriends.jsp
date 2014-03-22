@@ -99,7 +99,7 @@
           <table border="1" class="table table-striped table-bordered table-condensed">
             <tr>
               <td><img src=<%=avatar %> onclick="saveName('<%=friendsDetails[0]%>')" alt="friends name" width="50" height="50"></td>
-              <td><%=friendsDetails[0] %><br/>
+              <td width="50%"><%=friendsDetails[0] %><br/>
               </td>
             </tr>
           </table>
