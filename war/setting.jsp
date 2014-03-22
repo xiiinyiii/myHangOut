@@ -70,7 +70,7 @@
 			</div><br><br>
 			
 			<div class="table-responsive">
-		    <table class="table">
+		    <table class="table" border="0">
 		        <tbody>
 		            <tr>
 		                <td align="center">
@@ -80,7 +80,7 @@
 		                <td align="center">
 						  <a href="help.jsp"><img src="images/setting/help.png" onclick="" width="80px" height="80px"></a><br>
 						  <font size="5px">Help</font>
-						  </td>
+						</td>
 		            </tr>
 		            <tr>
 		                <td align="center">
@@ -91,7 +91,7 @@
 		                <td align="center">
 						  <img src="images/setting/logout.png" onclick="clearSession()" width="80px" height="80px"><br>
 						  <font size="5px">Logout</font>
-						  </td>
+						</td>
 		            </tr>
 		        </tbody>
 		    </table>

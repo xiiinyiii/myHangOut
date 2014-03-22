@@ -96,10 +96,10 @@
         	String avatar = "images/friends/"+friendsDetails[1];
         	//String[] friendsDetails2 = friendList.get(i+1).split(",");%>
         <div class="col-xs-6">
-          <table border="1" class="table table-striped table-bordered table-condensed">
+          <table border="1" class="table table-bordered table-condensed">
             <tr>
               <td><img src=<%=avatar %> onclick="saveName('<%=friendsDetails[0]%>')" alt="friends name" width="50" height="50"></td>
-              <td width="50%"><%=friendsDetails[0] %><br/>
+              <td width="60%"><%=friendsDetails[0] %><br/>
               </td>
             </tr>
           </table>
