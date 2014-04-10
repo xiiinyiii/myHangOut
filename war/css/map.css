@@ -2,7 +2,7 @@ html, body, #map-canvas {
         height: 100%;
         margin: 0px;
         padding: 0px;
-        top: 0px;
+        top: -20px;
         width: 1280px;
         overflow-y:hidden;
       }
