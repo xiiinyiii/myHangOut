@@ -1,4 +1,5 @@
 <%@include file="include/topbar.jsp"%>
+<%@include file="include/bottombarSetting.jsp"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,7 +12,7 @@
 		var selectedNumOfPost = numOfPosts.options[numOfPosts.selectedIndex].value;
 		var sessionDetails = sessionStorage.getItem("0");
 		var sessionDetailsSplit = sessionDetails.split(",");
-		var homeSession = sessionDetailsSplit[0]+",home,"+selectedNumOfPost
+		var homeSession = "home,"+selectedNumOfPost
 		sessionStorage.setItem("0", homeSession);
 		window.location="home.jsp";
     }
@@ -19,40 +20,40 @@
     	var currentPostNum = sessionStorage.getItem("0");
     	var currentPostNumSplit = currentPostNum.split(",");
     	var dropdownOption = 0;
-    	if(currentPostNumSplit[2]=="1"){
+    	if(currentPostNumSplit[1]=="1"){
     		dropdownOption=0;
-    	}else if(currentPostNumSplit[2]=="2"){
+    	}else if(currentPostNumSplit[1]=="2"){
     		dropdownOption=1;
-    	}else if(currentPostNumSplit[2]=="3"){
+    	}else if(currentPostNumSplit[1]=="3"){
     		dropdownOption=2;
-    	}else if(currentPostNumSplit[2]=="4"){
+    	}else if(currentPostNumSplit[1]=="4"){
     		dropdownOption=3;
-    	}else if(currentPostNumSplit[2]=="5"){
+    	}else if(currentPostNumSplit[1]=="5"){
     		dropdownOption=4;
-    	}else if(currentPostNumSplit[2]=="10"){
+    	}else if(currentPostNumSplit[1]=="10"){
     		dropdownOption=5;
-    	}else if(currentPostNumSplit[2]=="15"){
+    	}else if(currentPostNumSplit[1]=="15"){
     		dropdownOption=6;
-    	}else if(currentPostNumSplit[2]=="20"){
+    	}else if(currentPostNumSplit[1]=="20"){
     		dropdownOption=7;
+    	}else if(currentPostNumSplit[1]=="25"){
+    		dropdownOption=8;
+    	}else if(currentPostNumSplit[1]=="30"){
+    		dropdownOption=9;
     	}
     	document.getElementById('numOfPost').selectedIndex = dropdownOption;
     };
     function loadProfile(){
     	var sessionDetails = sessionStorage.getItem("0");
 		var sessionDetailsSplit = sessionDetails.split(",");
-		var homeSession = sessionDetailsSplit[0]+",profile,"+sessionDetailsSplit[2]+",Stanley";
-		sessionStorage.setItem("0", homeSession);
+		//var homeSession = sessionDetailsSplit[0]+",profile,"+sessionDetailsSplit[2]+",Stanley";
+		sessionStorage.setItem("0", "profile,"+sessionDetailsSplit[1]+",Stanley");
 		window.location="profile.jsp";
-    }
-    function clearSession(){
-    	sessionStorage.clear();
-    	window.location="mainPage.jsp";
     }
     </script>
   </head>
  <body>
-    <div class="container"><br><br><br><br>
+    <div class="container">
 		<div class="control-group">
 			  <div class="controls">
 			    <label class="control-label" for="numOfPost">Number of posts to display :</label>
@@ -65,23 +66,25 @@
 					<option name="10" value="10">10</option>
 					<option name="15" value="15">15</option>
 					<option name="20" value="20">20</option>
+					<option name="25" value="25">25</option>
+					<option name="30" value="30">30</option>
 				</select>
 			  </div>
 			</div><br><br>
 			
 			<div class="table-responsive">
-		    <table class="table" border="0">
+		    <table class="table">
 		        <tbody>
-		            <tr>
-		                <td align="center">
+		            <!--<tr>
+		                <td colspan="2" align="center">
 						  <img src="images/setting/profile.png" onclick="loadProfile()" width="80px" height="80px"><br>
 						  <font size="5px">Profile</font>
 						  </td>
-		                <td align="center">
+		               <!--<td align="center">
 						  <a href="help.jsp"><img src="images/setting/help.png" onclick="" width="80px" height="80px"></a><br>
 						  <font size="5px">Help</font>
-						</td>
-		            </tr>
+						  </td>
+		            </tr>-->
 		            <tr>
 		                <td align="center">
 						  <img src="images/setting/block.png" width="80px" height="80px"><br>
@@ -89,9 +92,9 @@
 						  <font size="5px">Friend</font>
 						  </td>
 		                <td align="center">
-						  <img src="images/setting/logout.png" onclick="clearSession()" width="80px" height="80px"><br>
+						  <img src="images/setting/logout.png" width="80px" height="80px"><br>
 						  <font size="5px">Logout</font>
-						</td>
+						  </td>
 		            </tr>
 		        </tbody>
 		    </table>
