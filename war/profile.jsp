@@ -1,4 +1,5 @@
 <%@include file="include/topbarHome.jsp"%>
+<%@include file="include/bottombarProfile.jsp"%>
 <!DOCTYPE html>
 <html>
   <head>

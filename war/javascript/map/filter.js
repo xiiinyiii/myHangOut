@@ -1,6 +1,7 @@
 var filteredHome=[];
 var storeFilterPhoto=[];
 var filteredMarker=[];
+var filteredAddress=[];
 var filteredCircle=[new google.maps.LatLng(1.4520997,103.821144),new google.maps.LatLng(1.354625,103.688621),new google.maps.LatLng(1.342268,103.952293),new google.maps.LatLng(1.279114,103.825264)];
 function filter(){
 	var classStatus = document.getElementById('status').className;
@@ -461,7 +462,9 @@ function filter(){
 	}
 	
 	//Close modal
-	$('#myModal').modal('hide') 
+	$('#myModal').modal('hide');
+	$('body').removeClass('modal-open');
+	$('.modal-backdrop').remove();
 	createFilter();
 }
 function createFilter(){
@@ -472,7 +475,7 @@ function createFilter(){
 	
 	var sessionNumPost = sessionStorage.getItem("0");
 	var sessionNumPostSplit = sessionNumPost.split(",");
-	for(var i = 0;i<sessionNumPostSplit[2];i++){
+	for(var i = 0;i<sessionNumPostSplit[1];i++){
 		var friendInfoString = filteredHome[i];
 		var friendInfo = friendInfoString.toString().split(",");
 		var typeOfPost = friendInfo[2];
@@ -492,8 +495,10 @@ function createFilter(){
 			
 			//Event listenser 
 			infoWindowStatus[i] = "<div id='infoWindow'><strong>"+friendInfo[0]+" said: </strong><hr>"+friendInfo[5]+"<br><br>" +
-	  		"<font size='1'>2 hours ago"+
-	  		"<br>"+storeAddress[i]+"</font></div>";
+	  		"<font size='1'><b>Time:</b> "+friendInfo[6]+"<br><b>Date:</b> "+friendInfo[7].substring(0,2)+"/"+friendInfo[7].substring(2,4)+"/"+friendInfo[7].substring(4)+
+	  		"<br><b>Address:</b> "+friendInfo[8]+"<br><br>" +
+	  		"<img src='images/like.png' height='25px' width='25px'>25 likes</font></div>";
+			
 			
 			google.maps.event.addListener(marker, 'click', (function(marker,i){
 	            return function(){
@@ -509,7 +514,7 @@ function createFilter(){
 			var photoLng = friendInfo[4];
 			var photoCoord = new google.maps.LatLng(photoLat,photoLng);
 			
-			var imagePath = "images/photo/"+friendInfo[8];
+			var imagePath = "images/photo/"+friendInfo[9];
 			
 			var image = new Image();
 			image.src = imagePath;
@@ -537,7 +542,9 @@ function createFilter(){
 			infoWindowPhoto[i] = "<div id='infoWindow'><strong>"+ friendInfo[0] +"</strong><hr>"+
 			"<img src='" + storeFilterPhoto[i] + "' height='100' width='100'><br><br>"+
 			friendInfo[5]+"<br><br>"+
-			  "<font size='1'>"+storeAddress[i]+"</font></div>";
+			  "<font size='1'><b>Time:</b> "+friendInfo[6]+"<br><b>Date:</b> "+friendInfo[7].substring(0,2)+"/"+friendInfo[7].substring(2,4)+"/"+friendInfo[7].substring(4)+
+			  "<br><b>Address:</b> "+friendInfo[8]+"<br><br>" +
+			  	"<img src='images/like.png' height='25px' width='25px'>17 likes</font></div>";
 			google.maps.event.addListener(photo, 'click', (function(photo,i){
 	            return function(){
 	            	if (infowindow) infowindow.close();
@@ -567,8 +574,10 @@ function createFilter(){
 			infoWindowEvent[i] = "<div id='infoWindow'><strong>"+ eventsMoreDetails[0] +"</strong><hr>Created By: "+ friendInfo[0] +"<br><br>"+
 			"<input type='hidden' id='sendLoadEvent' value="+i+">"+  
 			"<div align='right'><font size='1'> More<br>information </font></div>" +
-			"<img src='images/right_arrow.png' onclick='loadEvent()' align='right' height='20' width='20'><br><br>"+
-			"<font size='1'>10 hours ago<br>"+storeAddress[i]+"</font></div>";
+					"<img src='images/right_arrow.png' onclick='loadEvent()' align='right' height='20' width='20'><br><br>"+
+			  "<font size='1'><b>Time:</b> "+friendInfo[6]+"<br><b>Date:</b> "+friendInfo[7].substring(0,2)+"/"+friendInfo[7].substring(2,4)+"/"+friendInfo[7].substring(4)+
+			  "<br><b>Address:</b></br> "+friendInfo[8]+"<br><br>" +
+			  		"<img src='images/like.png' height='25px' width='25px'>38 likes</font></div>";
 			google.maps.event.addListener(event, 'click', (function(event,i){
 	            return function(){
 	            	if (infowindow) infowindow.close();
