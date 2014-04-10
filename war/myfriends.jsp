@@ -1,5 +1,6 @@
 <%@ page import="java.util.*" %>
 <%@include file="include/topbar.jsp"%>
+<%@include file="include/bottombarFriends.jsp"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -22,15 +23,15 @@
     </style>
     <script>
     function saveName(name){
-    	var currentSession = sessionStorage.getItem("0");
-    	var currentSessionSplit = currentSession.split(",");
-    	var newStatus = currentSessionSplit[0]+",profile,"+currentSessionSplit[2]+","+name;
+    	//var currentSession = sessionStorage.getItem("0");
+    	//var currentSessionSplit = currentSession.split(",");
+    	var newStatus = "profile,25,"+name;
     	sessionStorage.setItem("0",newStatus);
     	window.location="profile.jsp";
     }
     </script>
   </head>
-  <body><br><br><br>
+  <body>
 
   <%
   ArrayList<String> friendList = new ArrayList<String>();
@@ -49,6 +50,7 @@
   //friendList.add("Wilson,boy/face7.jpg");
   friendList.add("Alvin,boy/face8.jpg");
   friendList.add("Dave,boy/face9.jpg");
+  friendList.add("Javier,boy/face6.jpg");
   //friendList.add("Stephen,boy/face10.jpg");
   //friendList.add("Amanda,girl/face11.jpg");
   //friendList.add("Bernice,girl/face12.jpg");
@@ -96,10 +98,10 @@
         	String avatar = "images/friends/"+friendsDetails[1];
         	//String[] friendsDetails2 = friendList.get(i+1).split(",");%>
         <div class="col-xs-6">
-          <table border="1" class="table table-bordered table-condensed">
+          <table border="1" class="table table-striped table-bordered table-condensed">
             <tr>
               <td><img src=<%=avatar %> onclick="saveName('<%=friendsDetails[0]%>')" alt="friends name" width="50" height="50"></td>
-              <td width="60%"><%=friendsDetails[0] %><br/>
+              <td width="50%"><%=friendsDetails[0] %><br/>
               </td>
             </tr>
           </table>
